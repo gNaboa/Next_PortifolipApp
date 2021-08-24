@@ -26,7 +26,7 @@ export function Sfx({infos}:SfxProps){
             </div>
 
 
-             <Carousel className={styles.carouselContainer}  showArrows={false}>
+             <Carousel className={styles.carouselContainer} isRTL showArrows={false}>
 
                {infos.sfxreel.map((sfx,i)=>{
                    return(
