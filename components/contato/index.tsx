@@ -1,7 +1,7 @@
 import { height } from 'dom7'
 import styles from './styles.module.scss'
 import {FaSoundcloud,FaInstagram,FaLinkedin,FaBandcamp,FaYoutube} from 'react-icons/fa'
-import {CounterContext} from '../../context/counterContext'
+
 import { useContext } from 'react'
 
 
