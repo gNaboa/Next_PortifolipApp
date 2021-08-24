@@ -1,0 +1,136 @@
+.container{
+ 
+   
+    position: relative;
+
+   .title{
+       background: #350455;
+       display: inline-block;
+       color: white;
+       font-size:40px ;
+       padding: 20px;
+
+       h1{
+           border-bottom: 2px solid white;
+       }
+   }
+
+  .formulario{
+
+    
+  
+    form{
+        display: flex;
+        flex-direction: column;
+        max-width: 1120px;
+        margin: 0 auto;
+        padding: 20px;
+        justify-content: center;
+   
+      
+       gap: 50px;
+          input{
+              width: 900px;
+              height: 40px;
+              background-color: rgba(53, 4, 85, 0.27);
+              border: 2px solid black;
+              font-size:24px;
+              padding: 15px;
+              color: black;
+              @media(max-width:1000px){
+                  width: 500px;
+              }
+              @media(max-width:550px){
+                width: 300px;
+            }
+            @media(max-width:376px){
+                width: 240px;
+            }
+          }
+   
+          textarea{
+              resize: none;
+              width: 900px;
+              background-color: rgba(53, 4, 85, 0.27);
+              border: 2px solid black;
+              font-size:24px;
+              padding: 15px;
+              color: black;
+              @media(max-width:1000px){
+                width: 500px;
+            }
+            @media(max-width:550px){
+                width: 300px;
+            }
+            @media(max-width:376px){
+                width: 240px;
+            }
+          }
+          button{
+           
+              width: 185px;
+                padding: 15px;
+              border: 0;
+              background: #350455;
+              color: white;
+              font-size: 30px;
+              font-family: 'Montserrat',sans-serif;
+              font-weight: 900;
+               transition: filter 0.2s;
+              &:hover{
+                  filter: brightness(0.8);
+              }
+             
+           
+          }
+      }
+  }
+
+
+  .footer{
+      height: 218px;
+     position:absolute;
+    background: #350455;
+    width: 100%;
+  
+    text-align: center;
+
+    P{
+         font-size: 28px;
+         font-family: 'Montserrat',sans-serif;
+         color: white;
+         
+         font-weight: 900;
+         margin-bottom: 50px;
+         margin-top: 10px;
+    }
+
+    strong{
+        font-size: 20px;
+        font-family: 'Montserrat',sans-serif;
+        color: white;
+        font-weight: 300;
+    }
+
+    .icons{
+        margin: 0 auto;
+      
+        justify-content: space-evenly;
+        color: white;
+        margin-top: 30px;
+        width: 200px;
+        gap: 10px;
+        display: flex;
+
+        div{
+            
+
+            &:hover{
+                cursor: pointer;
+            }
+        }
+     
+    }
+ 
+  }
+}

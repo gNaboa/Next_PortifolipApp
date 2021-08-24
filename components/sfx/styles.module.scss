@@ -1,0 +1,44 @@
+.container{
+
+    .title{
+        margin-top: 170px;
+        background-color: #350455;
+        font-size: 60px;
+        color: white;
+        display: inline-block;
+        justify-content: center;
+        margin-bottom: 100px;
+        padding: 10px;
+
+        @media(max-width:800px){
+          font-size: 40px;
+        }
+        h1{
+          border-bottom: 2px solid white;
+        }
+    }
+
+     .carouselContainer{
+
+   
+     
+  
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    
+
+      .yt{
+        border: 3px solid #350455;
+        width: 600px;
+
+        @media(max-width:680px){
+          width: 400px;
+        }
+        @media(max-width:428px){
+          width: 300px;
+        }
+      }
+     } 
+      
+}

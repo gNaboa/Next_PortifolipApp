@@ -1,0 +1,76 @@
+.navBar{
+      height: 79px;
+      background:#350455 ;
+      align-items: center;
+      position:sticky;
+        top:0;
+       z-index:2;
+     .content{
+
+        margin: 0 auto;
+       
+        height: 79px;
+        max-width: 1220px;
+        justify-content: space-between;
+        display: flex;
+        width: 100%;
+        button{
+            background: transparent;
+            border: 0;
+            
+            color: white;
+            font-size: 25px;
+            font-family: 'Montserrat';
+            font-weight: 400;
+            transition: filter 0.2s ;
+
+            @media(max-width:1100px){
+              font-size: 20px;
+            }
+            &:hover{
+                filter: brightness(0.8);
+                
+            }
+        }
+     }
+
+     .navContent{
+      
+       text-align: end;
+      .navButton{
+        width: 44px;
+        height: 44px;
+        color: white;
+      cursor: pointer;
+        
+      }
+
+      .sideBar{
+        background:#350455;
+  position:absolute;
+  top:45px;
+  right:0;
+  height:50vh;
+  width:200px;
+  display:flex;
+  flex-direction:column;
+   justify-content:space-evenly;
+ align-items:center;
+ transition: all 0.5s;
+ -webkit-transition: all 2s;
+opacity:1;
+
+button{
+ border: 0;
+ background: transparent;
+  
+  color: white;
+ transition: filter 0.2s;
+  &:hover{
+    cursor: pointer;
+    filter: brightness(0.8);
+  }
+}
+      }
+     }
+}
